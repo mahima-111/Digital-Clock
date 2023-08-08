@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my clock</title>
+    <link rel="stylesheet" href="digital_clock.css">
+    <link rel="stylesheet" href="digital_clock_media.css">
+
+    <link rel="shortcut icon" href="hourglass.png" type="image/x-icon">
+</head>
+<body>
+    <div class="clock-container flex-wrapper">
+        <div >
+            <img src="shape.png" alt="" class="img img1">
+        </div>
+        <div class="container">
+            <div class="date ">
+                <p>
+                    <span id="day"></span>
+                    <span class="comma">,</span>
+                    <span id="month"></span>
+                    <span id="today-date" class="num"></span>
+                </p>
+                <button type="button" id="switch" class="btn">24 hour</button>
+            </div>
+            <div class="time">
+                <span id="hours" class="num"></span>
+                <span class="dots">:</span>
+                <span id="minutes" class="num"></span>
+                <span class="dots">:</span>
+                <span id="seconds" class="num"></span>
+                <span id="am-pm"></span>
+            </div>
+        </div>
+        <div >
+            <img src="shape.png" alt="" class="img img2">
+        </div>
+    </div>
+
+    <script src="digital_clock.js"></script>
+</body>
+</html>

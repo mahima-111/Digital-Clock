@@ -1,0 +1,40 @@
+@media screen and (max-width:900px){   
+    .container{
+        transform:rotate(90deg);
+    }
+    @keyframes move1{
+        0%{
+            left: 30vw;
+        }
+        50%{
+            left:15vw;
+        }
+        100%{
+            left: 30vw;
+        }
+    }
+    @keyframes move2{
+        0%{
+            right: 25vw;
+        }
+        50%{
+            right:10vw;
+        }
+        100%{
+            right: 25vw;
+        }
+    }
+    .img1{
+        top: 12vh;
+    }   
+}
+@media screen and (max-width:600px){
+    .date{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+    .time{
+        font-size: 5rem;
+        padding: 1rem;
+    }
+}
